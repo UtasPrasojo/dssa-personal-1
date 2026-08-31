@@ -29,6 +29,10 @@ public class Mahasiswa {
         return nama;
     }
 
+    public String getJurusan() {
+        return jurusan;
+    }
+
     public String cekKelulusan() {
         if (ipk >= 3.00) {
             return "Lulus";

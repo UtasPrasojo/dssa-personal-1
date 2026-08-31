@@ -1,0 +1,7 @@
+run = "bash run.sh"
+entrypoint = "src/Mahasiswa/WebServer.java"
+modules = ["java-21"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
